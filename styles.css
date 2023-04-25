@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'kumbh sans', sans-serif;
+ }
+
+ p{
+  font-family: 'kumbh sans', sans-serif;
+  font-size: 20px;
+ }
+
+ .navbar
+ {
+    background: #131313; 
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+ }
+
+    .navbar__container
+    {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+    }
+
+    #navbar__logo{
+        background-color: #ff8177;
+        background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-colour: transparent;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 2rem;
+    }
+
+    .fa-gem{
+     margin-right: 0.5rem;
+    }
+
+    .navbar__menu
+    {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        text-align: center;
+    }
+
+    .navbar__item
+    {
+       height: 80px; 
+    }
+
+    .navbar__links
+    {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        padding: 0 1rem;
+        height: 100%;
+    }
+
+    
+    .main
+    {
+        background-color: #910a0a;
+    }
+    
+   body
+   {
+    background-color: #910a0a;
+   }
+   
+        .PremierLeagueResults
+        {
+			margin: 0;
+        padding: 0;
+        background-image: url(images/R.jpg);     
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+		} 
+    
+    .Ligue1Results
+    {
+        margin: 0;
+        padding: 0;
+        background-image: url(images/R.jpg);     
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+
+    }
+    .LaLigaResults
+    {
+        margin: 0;
+        padding: 0;
+        background-image: url(images/LaLigaResults.jpg);     
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    iframe
+    {
+        position: relative;
+        left: 100px;
+    }
+    footer
+    {
+        bottom: 0;
+        height: 10%;
+        width: 100%;
+        clear: both;
+
+    }
+
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;  
+        border: 1px solid #ccc; 
+        border-radius: 4px; 
+        box-sizing: border-box; 
+        margin-top: 6px; 
+        margin-bottom: 16px; 
+        resize: vertical 
+      }
+      
+      
+      input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+     
+      input[type=submit]:hover {
+        background-color: #545fdb;
+      }
+      
+      
+      .container {
+        border-radius: 5px;
+        background-color: #ca3d3d;
+        padding: 20px;
+      }
+
+
+
+      table {
+        border-collapse: collapse;
+        float: left;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+            }
+      
+      td {
+        width: 100px;
+        height: 20px;
+        background-color: white;
+        border: 1px solid black;
+         }
+
+      img {
+          float: right;
+      }
+
+      
+      
+      .content img:hover {
+        transform: scale(3);
+      }
+      
+
+        ul {
+          float: left;
+          margin: left 40px;
+          }
+
+      body #PremierLeague
+      {
+        background-color:#04AA6D;
+      }
